@@ -1,0 +1,22 @@
+{
+  "name": "hello-jest",
+  "version": "1.0.0",
+  "description": "Introduction into unit testing using Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngSharaqi/hello-jest.git"
+  },
+  "author": "Mohamed Sharaqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngSharaqi/hello-jest/issues"
+  },
+  "homepage": "https://github.com/EngSharaqi/hello-jest#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
