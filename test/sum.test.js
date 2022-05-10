@@ -13,7 +13,3 @@ it('enter the first number only', () => {
 it('enter the first and second numbers only', () => {
     expect(sum(10, 10)).toBe(20);
 });
-
-it('enter the first and second and third numbers', () => {
-    expect(sum(10, 10, 10)).toBe(30);
-});

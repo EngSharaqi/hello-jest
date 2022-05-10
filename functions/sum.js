@@ -1,5 +1,7 @@
-function sum(one, two, three) {
-    return (one || 0) + (two || null) + (three || null);
+
+
+function sum(one, two) {
+    return (one || 0) + (two || null);
 };
 
 module.exports = sum;
