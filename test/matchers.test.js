@@ -18,7 +18,7 @@ describe('Matchers', () => {
     
     describe('toContain - not.toContain: check if the array contains something', () => {
         it('matchers way by: toContain', () => {
-            expect(myArr).toContain(9);
+            expect(myArr).toContain(8);
         });
 
         it('not.toContain', () => {
@@ -26,4 +26,23 @@ describe('Matchers', () => {
         });
     });
 
+    describe('toBeFalsy: check if its false', () => {
+        it('if its false it will work', () => {
+            expect(isNaN(myArr[1])).toBeFalsy();
+        });
+
+        it('not: if its true it will work', () => {
+            expect(isNaN(myArr[9])).not.toBeFalsy();
+        });
+    });
+
+    describe('toBeTruthy: check if its true', () => {
+        it('if its true it will work', () => {
+            expect(isNaN(myArr[9])).toBeTruthy();
+        });
+
+        it('not: if its false it will work', () => {
+            expect(isNaN(myArr[8])).not.toBeTruthy();
+        });
+    });
 });
