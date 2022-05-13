@@ -88,4 +88,5 @@ describe('Matchers', () => {
             expect(a).toMatch(/Sharaqi/);
         });
     });
+
 });
